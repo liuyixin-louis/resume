@@ -11,7 +11,7 @@ interests:
 social:
   - display:
       header: false
-    icon_pack: fab
+    icon_pack: fas
     icon: envelope
     link: /#contact
   - icon: github
