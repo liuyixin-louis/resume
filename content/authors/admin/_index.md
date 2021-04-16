@@ -9,14 +9,14 @@ interests:
   - Model Compression
   - Combinatorial Optimization
 social:
+  - display:
+      header: false
+    icon_pack: fab
+    icon: envelope
+    link: /#contact
   - icon: github
     icon_pack: fab
     link: https://github.com/liuyixin-louis
-  - display:
-      header: false
-    icon_pack: fas
-    icon: email
-    link: "#contract"
 organizations:
   - name: South China University of Technology
     url: https://www.scut.edu.cn/en/
