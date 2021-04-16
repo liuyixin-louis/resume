@@ -1,73 +1,74 @@
 ---
-title: Example Talk
-
-event: Wowchemy Conference
-event_url: https://example.org
-
-location: Wowchemy HQ
+abstract: "The new crown epidemic (Covid-19) is a major event in the world that
+  can involve all human lives since World War II. Since the outbreak of the new
+  crown epidemic in Wuhan, China in 2019, the global economy and politics have
+  been affected to a certain extent. In order to respond to the epidemic, health
+  organizations in many countries have used machine learning and other methods
+  to carry out relevant forecasting studies to predict the number of future
+  diagnoses based on historical data, and use this as a basis to improve the
+  accuracy of the deployment of medical resource plans. However, most of the
+  existing new crown prediction models are based only on the single feature of
+  historical confirmed number data, and do not incorporate some richer regional
+  characteristics: the intensity of epidemic prevention measures, regional
+  population economic data, and such constructions. The effect of the model
+  method is often not good enough. In order to solve the above problems, we
+  proposed a multi-feature hybrid coding model for predicting the number of
+  confirmed diagnoses of the new crown to integrate regional features to improve
+  the model's ability to predict future diagnoses. In order to achieve this
+  goal, we have carried out hierarchical and classified feature coding on the
+  characteristics of prevention and control measures. By dividing the prevention
+  and control measures into ten categories and four intensity levels, we can
+  quantify the time sequence of prevention and control measures taken in each
+  region. In the prediction fitting, we adopted the huber regression model to
+  reduce the sensitivity of the model to data outliers. We tested our method on
+  the data set of CHIP2020 Evaluation 4, and the average MAPE index in three
+  typical regions is 0.2061, reaching the best result of the evaluation, showing
+  the effectiveness of our method. Furthermore, we conducted an explanatory
+  analysis of the model and found that among the ten types of measures, two
+  types of measures, restrictions on private gatherings and restrictions on
+  public places, have a significant effect on controlling the epidemic. In this
+  study, we constructed a new crown diagnosis prediction model that combines
+  time series and regional features. The superior results on real data from
+  CHIP2020 prove the effectiveness and practicality of our model. At the same
+  time, we also obtained two types of important prevention and control measures
+  through explanatory analysis of the model, and this conclusion can assist
+  relevant health organizations in making decisions. "
+slides: ""
+url_pdf: ""
+summary: An example talk using Wowchemy's Markdown slides feature.
+title: "2020chip Conference Oral Report: COVID-19 predicting based on Huber
+  Regression and Hierarchical Encoding"
+location: Online
+date: 2020-11-01T13:00:00.000Z
+date_end: 2020-11-02T15:00:00.000Z
+all_day: false
+event: "2020 chip Conference Oral Report "
+event_url: https://www.bilibili.com/video/BV185411574p?p=52
+featured: false
+authors: []
+url_video: ""
+url_slides: ""
 address:
   street: 450 Serra Mall
   city: Stanford
   region: CA
-  postcode: '94305'
+  postcode: "94305"
   country: United States
-
-summary: An example talk using Wowchemy's Markdown slides feature.
-abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
-
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
-date: "2030-06-01T13:00:00Z"
-date_end: "2030-06-01T15:00:00Z"
-all_day: false
-
-# Schedule page publish date (NOT talk date).
-publishDate: "2017-01-01T00:00:00Z"
-
-authors: []
-tags: []
-
-# Is this a featured talk? (true/false)
-featured: false
-
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-  focal_point: Right
-
 links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
-
-# Markdown Slides (optional).
-#   Associate this talk with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: example
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+  - name: Result
+    url: http://www.cips-chip.org.cn/2020/eval_result
+  - url: files/ppt_chip.pptx
+    name: PPT
+publishDate: 2021-04-16T06:11:59.997Z
+tags: []
 projects:
-- example
+  - CHIP2020
+image:
+  caption: ""
+  focal_point: CENTER
+  filename: featured.jpg
+url_code: ""
 ---
-
 {{% callout note %}}
 Click on the **Slides** button above to view the built-in slides feature.
 {{% /callout %}}
-
-Slides can be added in a few ways:
-
-- **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
-
-Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page.
