@@ -1,7 +1,7 @@
 ---
 title: Yixin Liu
 role: Undergraduate in Artificial Intelligence
-avatar_filename: ""
+avatar_filename: avatar.jpg
 bio: My research interests include reinforce learning, model compression and
   combinatorial optimization.
 interests:
